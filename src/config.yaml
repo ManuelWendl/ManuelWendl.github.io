@@ -1,6 +1,6 @@
 site:
-  name: Yarden As
-  site: 'https://yas.pub'
+  name: Manuel Wendl
+  site: '/'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Yarden As
-    template: '%s — Yarden As'
+    default: Manuel Wendl
+    template: '%s — Manuel Wendl'
   description: 'My place in the Internet. All Robots are Welcome.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Yarden As
+    site_name: Manuel Wendl
     images:
       - url: '~/assets/images/hero.png'
         width: 512
