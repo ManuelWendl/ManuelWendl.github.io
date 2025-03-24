@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: https://ManuelWendl.github.io.
+      url: https://ManuelWendl.github.io
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
