@@ -1,149 +1,148 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
-<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-<link rel="icon" href="GitHub.png" type="image/png" />
-<title>ManuelWendl</title>i
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel Wendl - Robotics Researcher</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <style>
+        :root {
+            --primary-color: #2B547E;
+            --accent-color: #996515;
+            --background: #F8F9FA;
+            --card-bg: #FFFFFF;
+        }
 
-<style type="text/css">
-body {font: 110% Candara, sans-serif;background-color: #BCBFC6; margin-left: -80px; margin-top: 0; margin-bottom: 0}
-.bigger { font-size:150%; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            background: var(--background);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
 
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 40px;
+            position: relative;
+        }
 
-hr {
-color: black 
-border-color: black
-width: 104%;
-position: relative;
-left: -2%;
-border-left: none;
-}
+        .header {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
 
-hr {
-color: black 
-border-color: black
-width: 100%;
-position: relative;
-left: -2%;
-border-left: none;
-}
+        .profile-img {
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
 
+        h1, h2, h3 {
+            color: var(--primary-color);
+            margin: 0 0 15px;
+        }
 
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 1.8rem; }
+        h3 { font-size: 1.4rem; }
 
-details {
-	display: inline;
-  font: 20px "Open Sans", Calibri, sans-serif;
-  width: 620px;
-}
-details > summary {display:inline;
-}
+        .contact-info {
+            display: grid;
+            gap: 8px;
+            margin: 20px 0;
+        }
 
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
 
-details > summary::-webkit-details-marker {
-  display: none;
-}
+        .contact-info a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
 
-details > p {
-	display: inline-block;
-  background-color: white;
-  margin: 3px;
-  border: 1px;
-}
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e0e0e0;
+            margin: 30px 0;
+        }
 
-a:link {
-  color: #2B547E; 
-  background-color: transparent; 
-}
+        .publication {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
 
-a:visited {
-  color: #2B547E;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #00224C;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #2B547E;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
-
-
-
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .profile-img {
+                width: 200px;
+            }
+            
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-<div style= "max-width: 800px; margin: 0 auto; ">
-	<div style="width:100%;border-left:1px solid black;border-right:1px solid black; padding-left: 40px; padding-right: 40px; margin-top: 0px; background-color: #FCFCFC; box-shadow: 0 0 10px black;">
-<br/>
-<hr/>
-<IMG SRC="LinkedIn2_cropped.jpeg" ALT="" HEIGHT=290 ALIGN= "right" style="float: right; margin: 7px 20px 7px 20px; border: 0px solid #000000;">
-<p style=”margin-top:0px;”>
-<H2><span class='bigger'>Manuel Wendl</span></H2>
+    <div class="container">
+        <div class="header">
+            <img src="LinkedIn2_cropped.jpeg" alt="Manuel Wendl" class="profile-img">
+            <div>
+                <h1>Manuel Wendl</h1>
+                <div class="contact-info">
+                    <div><i class="fas fa-envelope"></i> mwendl@ethz.ch</div>
+                    <div><i class="fab fa-github"></i> <a href="https://github.com/ManuelWendl">GitHub</a></div>
+                    <div><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/manuel-wendl">LinkedIn</a></div>
+                    <div><i class="fas fa-file-pdf"></i> <a href="CV.pdf">Curriculum Vitae</a></div>
+                </div>
+            </div>
+        </div>
 
-  Robotics @ ETH | B.Sc. Enginnering Science @ TUM</br>
- <i class="fa fa-envelope"></i> &nbsp mwendl [at] ethz.ch | manuel.r.wendl [at] gmail.com
- <i class="fab fa-github"></i> &nbsp; <a href='https://github.com/ManuelWendl'>GitHub</a></br> 
- <i class="fab fa-linkedin-in"></i> &nbsp <a href= 'https://www.linkedin.com/in/manuel-wendl/'> LinkedIn </a> </br> 
- <i class="fas fa-file-pdf"></i> &nbsp; <a href='CV.pdf' target="_blank" rel="noopener">CV</a></br>
- <!--...<img style='vertical-align:text-bottom; height: 1.20em;' src='emailaddress.png'> > -->
- </p> 
-</p>
-<hr/>
+        <hr>
 
-<p style = "font-size:100%;list-style-type: none;">
+        <section class="bio">
+            <h2>About Me</h2>
+            <p>I'm a Master's student in <a href="https://master-robotics.ethz.ch/">Robotics at ETH Zurich</a>, working on principled reinforcement learning (RL) algorithms...</p>
+        </section>
 
-I’m a Master’s student in <a href="https://master-robotics.ethz.ch/" style="text-decoration: none">Robotics at ETH Zurich</a>, working on principled reinforcement learning (RL) algorithms, focusing on robustness, safety, and optimism in uncertain environments. My research aims to bridge theoretical rigor with real-world applicability, developing adaptive learning systems with provable guarantees for deployment in safety-critical domains such as autonomous systems, robotics, and human-machine collaboration.
+        <hr>
 
-<br/>
-<br/>
-
-Before joining ETH Zurich, I earned my Bachelor’s degree in <a href="https://www.ed.tum.de/en/ed/studies/degree-programs/engineering-science-b-sc/" style="text-decoration: none">Engineering Science</a> from the Technical University of Munich (TUM), where I built a solid technical foundation across mechanical, electrical, and systems engineering, with a later focus on control theory, modeling, simulation, and machine learning, skills that now anchor my research in principled reinforcement learning.
-
-<br/>
-<br/>
-I have researched at <a href="https://www.ce.cit.tum.de/cps/home/", style="text-decoration: none">TUM Cyber-Physical-Systems Group</a> under the supervision of <a href="https://www.ce.cit.tum.de/cps/members/prof-dr-ing-matthias-althoff/", style="text-decoration: none">Prof. Dr.-Ing. Matthias Althoff</a>  in 2024, interned at <a href="https://www.bmw.com/en/index.html", style="text-decoration: none">BMW</a> in 2022/23 and at <a href="<Del>https://www.mtu.de/de/technologie/clean-air-engine/flying-fuel-cell/" style="text-decoration: none">MTU - Flying Fuel Cell</a> in 2023. 
-
-</p>
-
-<hr/>
-
-<p style="margin-bottom:0.8cm margin-top;float:right;">(for the always updated list, see <a href="https://scholar.google.com/citations?user=h-AateUAAAAJ&hl=de">Google scholar</a>)</p> 
-<h3 style="margin-bottom:0.7cm;margin-top:0.5cm;font-size:140%">Publications</h3>
-<ul style = "font-size:93%;list-style-type: none; margin-left:-0.5cm"> 
-
-
-<li><p>
-<b>Training Verifiably Robust Agents using Set-Based Reinforcement Learning</b> <br>
- M. Wendl, L. Koller, T. Ladner, M. Althoff<br>
-<i>Preprint</i>, 2023.
-<a style = "color: #996515  ; font: 90% Tahoma; " href="https://arxiv.org/pdf/2408.09112?">[pdf]</a>
-<a style = "color: #996515  ; font: 90% Tahoma; " href="Files/Bibs/wendl2024training.bib">[bib]</a>
-</li>
-
-
-<hr />
-<hr style = "margin-top: -5px;"/>
-<br/>
-
-
-</div>
-</div>
-
-
+        <section class="publications">
+            <h2>Publications</h2>
+            <div class="publication">
+                <h3>Training Verifiably Robust Agents using Set-Based Reinforcement Learning</h3>
+                <p>M. Wendl, L. Koller, T. Ladner, M. Althoff<br>
+                <em>Preprint, 2023</em></p>
+                <div class="links">
+                    <a href="https://arxiv.org/pdf/2408.09112" class="btn">PDF</a>
+                    <a href="Files/Bibs/wendl2024training.bib" class="btn">BibTeX</a>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
-
 </html>
