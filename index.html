@@ -94,6 +94,14 @@
             flex: 1;
         }
         
+        .publication-content h3 {
+            margin: 0 0 10px; /* Space between title and authors */
+        }
+
+        .publication-content p {
+            margin: 0 0 15px; /* Space between authors and links */
+        }
+        
         .publication-image {
             width: 250px;
             height: auto;
@@ -101,6 +109,26 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
+        .links {
+            margin-top: 12px; /* Additional space before links */
+            display: flex;
+            gap: 10px; /* Space between buttons */
+        }
+
+        .btn {
+            padding: 5px 12px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-color);
+        }
+
         @media (max-width: 768px) {
             .publication {
                 flex-direction: column;
