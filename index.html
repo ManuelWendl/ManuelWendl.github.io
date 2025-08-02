@@ -85,8 +85,34 @@
             padding: 15px;
             background: #f8f9fa;
             border-radius: 6px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
         }
-
+        
+        .publication-content {
+            flex: 1;
+        }
+        
+        .publication-image {
+            width: 200px;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .publication {
+                flex-direction: column;
+            }
+            
+            .publication-image {
+                width: 100%;
+                max-width: 300px;
+                margin: 15px 0;
+            }
+        }
+        
         @media (max-width: 900px) {
             .header {
                 flex-direction: column;
@@ -141,22 +167,28 @@
         <section class="publications">
             <h2>Publications</h2>
             <div class="publication">
-                <h3>Training Verifiably Robust Agents using Set-Based Reinforcement Learning</h3>
-                <p>M. Wendl, L. Koller, T. Ladner, M. Althoff<br>
-                <em>Preprint, 2024</em></p>
-                <div class="links">
-                    <a href="https://arxiv.org/pdf/2408.09112" class="btn">PDF</a>
-                    <a href="Files/Bibs/wendl2024training.bib" class="btn">BibTeX</a>
+                <div class="publication-content">
+                    <h3>Training Verifiably Robust Agents using Set-Based Reinforcement Learning</h3>
+                    <p>M. Wendl, L. Koller, T. Ladner, M. Althoff<br>
+                    <em>Preprint, 2024</em></p>
+                    <div class="links">
+                        <a href="https://arxiv.org/pdf/2408.09112" class="btn">PDF</a>
+                        <a href="Files/Bibs/wendl2024training.bib" class="btn">BibTeX</a>
+                    </div>
                 </div>
+                <img src="Files/Figs/sbrl.png" alt="Set-Based Reinforcement Learning" class="publication-image">
             </div>
             <div class="publication">
-                <h3>OG-MARL: Optimistic Gossiping Multi-Agent Reinforcement Learning</h3>
-                <p>M. Wendl<br>
-                <em>Preprint, 2025</em></p>
-                <div class="links">
-                    <a href="./DistributedOptimism.pdf" class="btn">PDF</a>
-                    <a href="Files/Bibs/wendl2025ogmarl.bib" class="btn">BibTeX</a>
+                <div class="publication-content">
+                    <h3>OG-MARL: Optimistic Gossiping Multi-Agent Reinforcement Learning</h3>
+                    <p>M. Wendl<br>
+                    <em>Preprint, 2025</em></p>
+                    <div class="links">
+                        <a href="./Files/Pdfs/DistributedOptimism.pdf" class="btn">PDF</a>
+                        <a href="Files/Bibs/wendl2025ogmarl.bib" class="btn">BibTeX</a>
+                    </div>
                 </div>
+                <img src="Files/Figs/ogmarl.png" alt="Optimistic Gossiping MARL" class="publication-image">
             </div>
         </section>
     </div>
