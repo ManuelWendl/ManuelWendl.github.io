@@ -22,39 +22,19 @@
             color: #333;
             min-height: 100vh;
             position: relative;
-        }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('./eth_background.jpg') center center / cover no-repeat;
-            filter: blur(3px);
-            z-index: -2;
-        }
-
-        body::after {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(248, 249, 250, 0.7);
-            z-index: -1;
+            background: url('./eth_background.jpg') center center / cover no-repeat fixed;
+            background-color: #f8f9fa;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: var(--card-bg);
+            background: rgba(255, 255, 255, 0.95);
             border-radius: 12px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             padding: 40px;
             position: relative;
+            backdrop-filter: blur(5px);
         }
 
         .header {
