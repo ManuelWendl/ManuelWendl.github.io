@@ -73,14 +73,22 @@
         }
 
         .university-logo {
-            height: 40px;
-            width: auto;
             opacity: 1;
             transition: opacity 0.3s ease;
         }
 
         .university-logo:hover {
             opacity: 1;
+        }
+
+        .eth-logo, .cambridge-logo {
+            width: 60px;
+            height: auto;
+        }
+
+        .tum-logo {
+            height: 40px;
+            width: auto;
         }
 
         h1, h2, h3 {
@@ -198,8 +206,13 @@
                 padding-right: 0;
             }
             
-            .university-logo {
-                height: 40px;
+            .eth-logo, .cambridge-logo {
+                width: 45px;
+                height: auto;
+            }
+            
+            .tum-logo {
+                height: 30px;
                 width: auto;
             }
             
@@ -231,9 +244,9 @@
                 </div>
             </div>
             <div class="university-logos">
-                <img src="ETH_Zurich_Logo.svg" alt="ETH Zurich" class="university-logo">
-                <img src="University_of_Cambridge-Logo.png" alt="University of Cambridge" class="university-logo">
-                <img src="TUM_Logo.svg" alt="Technical University of Munich" class="university-logo">
+                <img src="ETH_Zurich_Logo.svg" alt="ETH Zurich" class="university-logo eth-logo">
+                <img src="University_of_Cambridge-Logo.png" alt="University of Cambridge" class="university-logo cambridge-logo">
+                <img src="TUM_Logo.svg" alt="Technical University of Munich" class="university-logo tum-logo">
             </div>
         </div>
 
